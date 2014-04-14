@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "jasonroman/flot": "1.0.*"
+        "jasonroman/flot": "1.0.*@dev"
     },
     "autoload": {
         "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }

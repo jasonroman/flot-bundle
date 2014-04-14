@@ -1,9 +1,9 @@
 Jason Roman's Flot Bundle
 ==============
 
-This bundle requires (and loads) <a href="https://github.com/jasonroman/flot">jasonroman/flot</a>
+This bundle requires (and loads) the <a href="https://github.com/jasonroman/flot">jasonroman/flot</a> package.
 
-## INSTALLATION
+## Installation
 
 Add JasonRomanFlotBundle to your `composer.json`
 
@@ -24,7 +24,7 @@ $bundles = array(
 );
 ```
 
-## USAGE
+## Usage
 
 ```php
 // convert to Flot JSON data from PHP arrays

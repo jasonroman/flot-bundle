@@ -1,0 +1,10 @@
+{
+	"name": "jasonroman/flot-bundle",
+	"description": "Jason Roman's Flot Bundle for Symfony2",
+	"require": {
+    },
+    "autoload": {
+        "psr-0": { "JasonRoman\\Bundle\\Flot\\Bundle": "" }
+    },
+    "target-dir": "JasonRoman/Bundle/FlotBundle"
+} 

@@ -1,10 +1,34 @@
 Jason Roman's Flot Bundle
 ==============
 
-This is my Flot bundle.  The bundle contains the following components:
+## INSTALLATION
 
-# Flot Charting Class
+Add JasonRomanFlotBundle to your `composer.json`
 
-This is a class that transforms PHP arrays of series data into a JSON format that Flot can understand.  It supports line/bar charts, pie charts, horizontal/vertical orientation, and time series data.  It also supports single or multiple series.
+```yaml
+{
+    "require": {
+        "jasonroman/flot-bundle": "1.0.*@dev"
+    }
+}
+```
 
-See the comments in the class for examples of the various forms of array $data that can be passed to the convert() function.
+Register the bundle in ``app/AppKernel.php``
+
+```php
+$bundles = array(
+    // ...
+    new JasonRoman\Bundle\FlotBundle\JasonRomanFlotBundle(),
+);
+```
+
+## USAGE
+
+```php
+// Use the service
+$flotData = $this->container->get('jasonroman.flot')->convert($data);
+$flotData = $this->container->get('jasonroman.flot')->convert($data, 'horizontal');
+$flotData = $this->container->get('jasonroman.flot')->convert($data, 'vertical', $datetime = true);
+$flotData = $this->container->get('jasonroman.flot')->convert($pieData);
+
+```

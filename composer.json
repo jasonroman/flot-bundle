@@ -4,7 +4,7 @@
 	"require": {
     },
     "autoload": {
-        "psr-0": { "JasonRoman\\Bundle\\Flot\\Bundle": "" }
+        "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },
     "target-dir": "JasonRoman/Bundle/FlotBundle"
 } 

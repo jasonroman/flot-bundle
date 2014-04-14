@@ -5,11 +5,11 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="jasonroman.chart.flot.class">JasonRoman\Flot\Chart\Flot</parameter>
+        <parameter key="jasonroman.flot.class">JasonRoman\Flot\Flot</parameter>
     </parameters>
 
     <services>
-        <service id="jasonroman.chart.flot" class="%jasonroman.chart.flot.class%" />
+        <service id="jasonroman.flot" class="%jasonroman.flot.class%" />
     </services>
 
 </container>

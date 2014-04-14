@@ -13,11 +13,16 @@
         }
     ],
     "require": {
-        "jasonroman/flot": "dev-master"
+        "php": ">=5.3.0",
+        "jasonroman/flot": "1.*"
     },
     "autoload": {
         "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },
     "target-dir": "JasonRoman/Bundle/FlotBundle",
-    "minimum-stability": "dev"
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }

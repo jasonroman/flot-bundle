@@ -1,11 +1,23 @@
 {
     "name": "jasonroman/flot-bundle",
     "description": "Jason Roman's Flot Bundle for Symfony2",
+    "keywords": ["flot"],
+    "homepage": "http://github.com/jasonroman/flot-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Roman",
+            "email": "j@jayroman.com",
+            "homepage": "http://jayroman.com"
+        }
+    ],
     "require": {
+        "php": ">=5.3.0",
         "jasonroman/flot": "dev-master"
     },
     "autoload": {
         "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },
     "target-dir": "JasonRoman/Bundle/FlotBundle"
-} 
+}

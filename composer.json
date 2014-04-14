@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jasonroman/flot-bundle.git"
+            "url": "https://github.com/jasonroman/flot.git"
         }
     ],
     "autoload": {

@@ -18,5 +18,6 @@
     "autoload": {
         "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },
-    "target-dir": "JasonRoman/Bundle/FlotBundle"
+    "target-dir": "JasonRoman/Bundle/FlotBundle",
+    "minimum-stability": "dev"
 }

@@ -4,12 +4,6 @@
     "require": {
         "jasonroman/flot": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/jasonroman/flot.git"
-        }
-    ],
     "autoload": {
         "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },

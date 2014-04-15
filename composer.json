@@ -2,7 +2,7 @@
     "name": "jasonroman/flot-bundle",
     "description": "Jason Roman's Flot Bundle for Symfony2",
     "keywords": ["flot"],
-    "homepage": "http://github.com/jasonroman/flot-bundle",
+    "homepage": "https://github.com/jasonroman/flot-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [

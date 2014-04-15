@@ -17,9 +17,8 @@
         "jasonroman/flot": "1.0.*"
     },
     "autoload": {
-        "psr-0": { "JasonRoman\\Bundle\\FlotBundle": "" }
+        "psr-4": { "JasonRoman\\Bundle\\FlotBundle": "" }
     },
-    "target-dir": "JasonRoman/Bundle/FlotBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"

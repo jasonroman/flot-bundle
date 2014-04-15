@@ -5,7 +5,7 @@ This bundle requires (and loads) the <a href="https://github.com/jasonroman/flot
 
 ## Installation
 
-Add JasonRomanFlotBundle to your `composer.json`
+Add the bundle to your `composer.json`
 
 ```yaml
 {
